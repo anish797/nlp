@@ -1,0 +1,8 @@
+{
+    "log_type": "openssh",
+    "log_count": 655147,
+    "parsed_date": "2025-04-23 19:43:34",
+    "sequence_accuracy": 0.99690123645245,
+    "anomaly_count_time": 27,
+    "anomaly_count_ssh": 525
+}
