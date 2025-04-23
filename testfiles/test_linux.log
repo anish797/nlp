@@ -1,0 +1,26 @@
+Jun  9 06:06:20 combo syslogd 1.4.1: restart.
+Jun  9 06:06:20 combo syslog: syslogd startup succeeded
+Jun  9 06:06:20 combo syslog: klogd startup succeeded
+Jun  9 06:06:20 combo kernel: klogd 1.4.1, log source = /proc/kmsg started.
+Jun  9 06:06:20 combo kernel: Linux version 2.6.32-754.el6.x86_64 (mockbuild@x86-01.bsys.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-23) (GCC) )
+Jun  9 06:06:20 combo kernel: BIOS-provided physical RAM map:
+Jun  9 06:06:20 combo kernel: Initializing cgroup subsys cpuset
+Jun  9 06:06:20 combo kernel: Initializing cgroup subsys cpu
+Jun  9 06:06:20 combo kernel: AppArmor: AppArmor initialized
+Jun  9 06:06:20 combo kernel: pci 0000:00:1f.2: PCI INT B -> GSI 19 (level, low) -> IRQ 19
+Jun  9 06:06:20 combo kernel: ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 11
+Jun  9 06:06:20 combo kernel: uhci_hcd 0000:00:1d.0: PCI INT A -> GSI 23 (level, low) -> IRQ 23
+Jun  9 06:06:20 combo kernel: uhci_hcd 0000:00:1d.0: setting latency timer to 64
+Jun  9 06:06:20 combo kernel: udev: starting version 151
+Jun  9 06:06:21 combo kernel: Adding 8388604k swap on /dev/sda2. Priority:-1 extents:1 across:8388604k
+Jun  9 06:06:21 combo kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Jun  9 06:06:21 combo kernel: type=1400 audit(1417625381.132:9): apparmor="STATUS" operation="profile_load" name="/usr/lib/cups/backend/cups-pdf" pid=937 comm="apparmor_parser"
+Jun  9 06:06:22 combo kernel: aufs 3.10-20181217
+Jun  9 06:06:23 combo ntpd[1211]: ntpd 4.2.8p12@1.3728-o (1): Starting
+Jun  9 06:06:23 combo ntpd[1211]: Command line: /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 112:117
+Jun  9 06:06:23 combo dhclient: DHCPREQUEST on eth0 to 192.168.1.1 port 67
+Jun  9 06:06:23 combo dhclient: DHCPACK from 192.168.1.1
+Jun  9 06:06:23 combo dhclient: bound to 192.168.1.10 -- renewal in 42430 seconds.
+Jun  9 06:06:24 combo sshd[1322]: Server listening on 0.0.0.0 port 22.
+Jun  9 06:06:24 combo sshd[1322]: Server listening on :: port 22.
+Jun  9 06:06:25 combo kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:1a:4b:5c:6d:7e:00:8f:9e:af:bc:de:08:00 SRC=185.143.223.71 DST=192.168.1.10 LEN=40 TOS=0x00 PREC=0x00 TTL=246 ID=54321 PROTO=TCP SPT=51082 DPT=23 WINDOW=65535 RES=0x00 SYN URGP=0

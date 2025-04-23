@@ -1,0 +1,20 @@
+Dec 10 06:55:46 LabSZ sshd[24200]: reverse mapping checking getaddrinfo for ns.marryaldkfaczcz.com failed - POSSIBLE BREAK-IN ATTEMPT!
+Dec 10 06:55:46 LabSZ sshd[24200]: Invalid user webmaster from 173.234.31.186
+Dec 10 06:55:46 LabSZ sshd[24200]: input_userauth_request: invalid user webmaster
+Dec 10 06:55:46 LabSZ sshd[24200]: Failed password for invalid user webmaster from 173.234.31.186 port 47548 ssh2
+Dec 10 06:55:46 LabSZ sshd[24200]: Connection closed by 173.234.31.186
+Dec 10 07:06:34 LabSZ sshd[24557]: Accepted password for admin from 192.168.1.100 port 49972 ssh2
+Dec 10 07:06:34 LabSZ sshd[24557]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Dec 10 07:10:12 LabSZ sshd[24557]: pam_unix(sshd:session): session closed for user admin
+Dec 10 08:23:11 LabSZ sshd[25879]: Failed password for root from 218.65.30.126 port 43737 ssh2
+Dec 10 08:23:12 LabSZ sshd[25881]: Failed password for root from 218.65.30.126 port 44209 ssh2
+Dec 10 08:23:12 LabSZ sshd[25884]: Failed password for root from 218.65.30.126 port 44661 ssh2
+Dec 10 08:23:13 LabSZ sshd[25887]: Failed password for root from 218.65.30.126 port 45145 ssh2
+Dec 10 08:23:13 LabSZ sshd[25889]: Failed password for root from 218.65.30.126 port 45609 ssh2
+Dec 10 09:15:01 LabSZ sshd[27816]: Accepted publickey for john from 10.0.1.15 port 54343 ssh2: RSA SHA256:FaQ3XWkf6FjUqDm3hoXV8C1+y3QQx8qMFXtfr+D+4Qc
+Dec 10 09:15:01 LabSZ sshd[27816]: pam_unix(sshd:session): session opened for user john by (uid=0)
+Dec 10 09:52:33 LabSZ sshd[27816]: pam_unix(sshd:session): session closed for user john
+Dec 10 10:17:22 LabSZ sshd[29192]: Connection closed by authenticating user alice 10.0.1.16 port 59220 [preauth]
+Dec 10 11:32:45 LabSZ sshd[31088]: User root from 185.202.174.91 not allowed because not listed in AllowUsers
+Dec 10 11:32:46 LabSZ sshd[31088]: Connection closed by 185.202.174.91
+Dec 10 14:01:42 LabSZ sshd[8782]: Disconnected from 10.0.1.5 port 51792 [preauth]
