@@ -1,0 +1,36 @@
+**APT Campaign "DEEPCRIMSON" Targeting Energy Sector**  
+
+**Overview:**  
+A sophisticated APT group (tracked as UNC4561) has been observed conducting cyber espionage against European energy companies for at least 14 months. The campaign focuses on stealing industrial control system (ICS) designs and operational technology (OT) network layouts.  
+
+**Key Indicators of Compromise (IOCs):**  
+- **Initial Access:**  
+  - Spear-phishing emails with malicious ISO attachments (masquerading as "Q2 Energy Report.iso")  
+  - Exploitation of **CVE-2023-32456** (Microsoft Office zero-day)  
+- **Malware Payloads:**  
+  - **"CrimsonBackdoor"** - Custom C++ implant with TLS-encrypted C2 communications  
+  - **"PipeWalker"** - Lateral movement tool that abuses Windows named pipes  
+- **Data Exfiltration:**  
+  - Data staged in password-protected RAR archives (filename format: `[company]_[date].rar`)  
+  - Exfiltrated via compromised cloud storage accounts (Dropbox, OneDrive)  
+
+**Tactics, Techniques & Procedures (TTPs):**  
+1. **Reconnaissance:**  
+   - WHOIS queries for target domains  
+   - LinkedIn profiling of engineers  
+2. **Persistence:**  
+   - Scheduled tasks masquerading as "Adobe Update Service"  
+   - Registry modifications under `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule`  
+3. **Defense Evasion:**  
+   - Process hollowing of `explorer.exe`  
+   - TLS 1.3 C2 channels mimicking Slack API traffic  
+
+**Targeted Organizations:**  
+- 3 major natural gas suppliers in Germany  
+- 1 nuclear plant contractor in France  
+
+**Mitigation Recommendations:**  
+- Apply Microsoft Office patch KB5023456 immediately  
+- Block ISO/IMG file attachments in email  
+- Hunt for process trees where `explorer.exe` spawns `cmd.exe`  
+- Monitor for RAR files >50MB created in TEMP directories  

@@ -1,0 +1,20 @@
+Unusual Network Activity Detected: Investigation Ongoing
+
+Our SIEM has detected anomalous behavior across several workstations with the following characteristics:
+
+Observations:
+- Unusual late-night login patterns (2:00 AM - 4:00 AM local time)
+- Spike in data transfers to cloud storage providers
+- Multiple failed attempts to access restricted HR databases
+- No known malware signatures detected
+
+Possible Explanations:
+- Misconfigured automated backup jobs
+- Insider threat scenario
+- Compromised service accounts
+
+Next Steps:
+- Isolate suspicious endpoints for forensic analysis
+- Review recent changes to IAM policies
+- Conduct user awareness interviews
+- Enhance endpoint monitoring rules

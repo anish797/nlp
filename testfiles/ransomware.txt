@@ -1,0 +1,22 @@
+CRITICAL: LockBit 3.0 Ransomware Attack on Regional Hospital Network
+
+Our healthcare system is currently experiencing an active ransomware attack affecting:
+- Patient records systems (EPIC, Cerner)
+- Radiology imaging servers
+- Pharmacy management systems
+
+Attack Details:
+- Encrypted using AES-256 + RSA-2048 hybrid encryption
+- Ransom demand: 75 BTC (~$1.8M USD)
+- 72-hour deadline before data deletion threatened
+- Attack vector: Exploited unpatched Citrix ADC vulnerability (CVE-2023-3519)
+
+Impact:
+- Emergency services operating on paper-based fallback
+- MRI/CT scanners offline
+- Patient surgeries being rescheduled
+
+Immediate Actions:
+- Activated incident response protocol
+- Engaging cybersecurity forensic experts
+- Notifying law enforcement (FBI Cyber Division)
